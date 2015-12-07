@@ -1,0 +1,34 @@
+{
+  "name": "ibf-topic-updater",
+  "version": "0.1.0",
+  "description": "Plugin for irc-bot-framework that updates room topics with some dynamic data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jthomerson/ibf-topic-updater.git"
+  },
+  "keywords": [
+    "IRC",
+    "bot",
+    "framework",
+    "plugin",
+    "topic",
+    "dynamic"
+  ],
+  "author": "Jeremy Thomerson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jthomerson/ibf-topic-updater/issues"
+  },
+  "homepage": "https://github.com/jthomerson/ibf-topic-updater#readme",
+  "peerDependencies": {
+    "irc-bot-framework": ">= 0.1.1 < 1.0.0"
+  },
+  "dependencies": {
+    "class.extend": "0.9.1",
+    "underscore": "^1.8.3"
+  }
+}
